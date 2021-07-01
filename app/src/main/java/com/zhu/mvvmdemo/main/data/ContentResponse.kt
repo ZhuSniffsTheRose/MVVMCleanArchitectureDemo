@@ -1,15 +1,18 @@
-package com.zhu.mvvmdemo.placeholder
+package com.zhu.mvvmdemo.main.data
 
 import java.util.ArrayList
 import java.util.HashMap
 
 /**
- * Helper class for providing sample content for user interfaces created by
- * Android template wizards.
- *
- * TODO: Replace all uses of this class before publishing your app.
+ * named like gitBrowser----> RepoSearchResponse     sunflower ---> UnsplashSearchResponse,
  */
-object PlaceholderContent {
+
+// sample:   注明 @SerializedName("xxx") 避免被混淆 导致解析失败
+//data class RepoSearchResponse(
+//        @SerializedName("xxx")
+//        val xxx: Int = 0
+//)
+object ContentResponse {
 
     /**
      * An array of sample (placeholder) items.

@@ -1,12 +1,11 @@
-package com.zhu.mvvmdemo.ui
+package com.zhu.mvvmdemo.main.adapters
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
-
-import com.zhu.mvvmdemo.placeholder.PlaceholderContent.PlaceholderItem
+import androidx.recyclerview.widget.RecyclerView
 import com.zhu.mvvmdemo.databinding.FragmentItemBinding
+import com.zhu.mvvmdemo.main.data.ContentResponse.PlaceholderItem
 
 
 class MyItemRecyclerViewAdapter(

@@ -1,4 +1,4 @@
-package com.zhu.mvvmdemo.base
+package com.zhu.mvvmdemo.util
 
 import android.view.View
 import android.view.ViewGroup

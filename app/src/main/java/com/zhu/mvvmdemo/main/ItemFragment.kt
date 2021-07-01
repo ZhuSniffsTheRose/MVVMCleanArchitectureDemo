@@ -1,4 +1,4 @@
-package com.zhu.mvvmdemo.ui
+package com.zhu.mvvmdemo.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.View
 import com.zhu.mvvmdemo.R
-import com.zhu.mvvmdemo.base.viewBindings
+import com.zhu.mvvmdemo.util.viewBindings
 import com.zhu.mvvmdemo.databinding.FragmentItemListBinding
-import com.zhu.mvvmdemo.placeholder.PlaceholderContent
+import com.zhu.mvvmdemo.main.adapters.MyItemRecyclerViewAdapter
+import com.zhu.mvvmdemo.main.data.ContentResponse
 
 /**
  * A fragment representing a list of Items.
@@ -39,7 +40,7 @@ class ItemFragment : Fragment(R.layout.fragment_item) {
                 columnCount <= 1 -> LinearLayoutManager(context)
                 else -> GridLayoutManager(context, columnCount)
             }
-            adapter = MyItemRecyclerViewAdapter(PlaceholderContent.ITEMS)
+            adapter = MyItemRecyclerViewAdapter(ContentResponse.ITEMS)
         }
     }
 }
