@@ -1,4 +1,4 @@
-package com.zhu.mvvmdemo.main.data
+package com.zhu.mvvmdemo.ui.data
 
 import java.util.ArrayList
 import java.util.HashMap

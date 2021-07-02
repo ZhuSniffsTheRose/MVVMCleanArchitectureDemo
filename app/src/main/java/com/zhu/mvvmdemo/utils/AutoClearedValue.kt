@@ -1,6 +1,4 @@
-
-
-package com.zhu.mvvmdemo.main.utils
+package com.zhu.mvvmdemo.utils
 
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.DefaultLifecycleObserver

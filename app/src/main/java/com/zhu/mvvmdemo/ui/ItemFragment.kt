@@ -1,15 +1,15 @@
-package com.zhu.mvvmdemo.main
+package com.zhu.mvvmdemo.ui
 
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import android.view.View
 import com.zhu.mvvmdemo.R
-import com.zhu.mvvmdemo.util.viewBindings
 import com.zhu.mvvmdemo.databinding.FragmentItemListBinding
-import com.zhu.mvvmdemo.main.adapters.MyItemRecyclerViewAdapter
-import com.zhu.mvvmdemo.main.data.ContentResponse
+import com.zhu.mvvmdemo.ui.adapters.MyItemRecyclerViewAdapter
+import com.zhu.mvvmdemo.ui.data.ContentResponse
+import com.zhu.mvvmdemo.util.viewBindings
 
 /**
  * A fragment representing a list of Items.
