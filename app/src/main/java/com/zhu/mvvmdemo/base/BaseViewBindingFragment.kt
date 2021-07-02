@@ -15,7 +15,7 @@ import com.zhu.mvvmdemo.R
  * @date 2021/7/2 15:34
  * @desc
  */
-abstract class BaseViewBidingFragment<VB : ViewBinding> : Fragment() {
+abstract class BaseViewBindingFragment<VB : ViewBinding> : Fragment() {
 
     var _binding: VB? = null
 

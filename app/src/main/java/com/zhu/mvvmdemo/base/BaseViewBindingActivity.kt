@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
 
-abstract class VectorBaseActivity<VB : ViewBinding> : AppCompatActivity() {
+abstract class BaseViewBindingActivity<VB : ViewBinding> : AppCompatActivity() {
     protected lateinit var views: VB
 
     override fun onCreate(savedInstanceState: Bundle?) {
