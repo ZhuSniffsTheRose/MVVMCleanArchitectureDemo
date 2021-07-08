@@ -1,6 +1,13 @@
 package com.zhu.mvvmdemo
 
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.launch
 import org.junit.Test
+import kotlinx.coroutines.flow.collect
+
 
 import org.junit.Assert.*
 

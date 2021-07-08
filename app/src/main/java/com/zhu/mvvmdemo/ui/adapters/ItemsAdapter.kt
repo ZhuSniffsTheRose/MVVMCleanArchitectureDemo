@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.zhu.mvvmdemo.databinding.FragmentItemBinding
-import com.zhu.mvvmdemo.ui.data.ContentResponse.PlaceholderItem
+import com.zhu.mvvmdemo.data.ContentResponse.PlaceholderItem
 
 
 class ItemsAdapter(
@@ -35,7 +35,6 @@ class ItemsAdapter(
             }
         }
 
-        /* Bind flower name and image. */
         fun bind(item: PlaceholderItem) {
             currentItem = item
             binding.itemNumber.text = item.id

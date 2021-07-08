@@ -3,13 +3,14 @@ package com.zhu.mvvmdemo.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.zhu.mvvmdemo.R
 import com.zhu.mvvmdemo.databinding.FragmentListBinding
 import com.zhu.mvvmdemo.ui.adapters.HeaderAdapter
 import com.zhu.mvvmdemo.ui.adapters.ItemsAdapter
-import com.zhu.mvvmdemo.ui.data.ContentResponse
+import com.zhu.mvvmdemo.data.ContentResponse
 import com.zhu.mvvmdemo.util.viewBindings
 import com.zhu.mvvmdemo.utils.autoCleared
 import com.zhu.mvvmdemo.utils.toast
